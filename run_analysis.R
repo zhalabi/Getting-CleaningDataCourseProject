@@ -83,4 +83,4 @@ library(plyr) ##Load Pacjages Required for the Function
   aggregated_tidy_data_Result<-aggregated_tidy_data_Result[index, ] ##Sort Data
 
 ##Write Table to a Flat File
-  write.table(aggregated_tidy_data_Result, file = "aggregated_tidy_data_Result.csv", sep = ",", row.name=FALSE, qmethod = "double")
+  write.table(aggregated_tidy_data_Result, file = "aggregated_tidy_data_Result.txt", sep = ",", row.name=FALSE, qmethod = "double")
