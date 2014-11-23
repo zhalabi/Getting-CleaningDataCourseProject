@@ -3,7 +3,7 @@
 ##Setup Environment
 rm(list=ls()) ## Clear Memory
 setwd("~/DataProject_1") ##Set Working Directory
-library(plyr) ##Load Packages Required for the Script
+library(plyr) ##Load Package(s) Required for the Script
 
 
 ##Download Datafrom the Web
