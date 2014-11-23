@@ -1,9 +1,9 @@
 
 
-##Setup Envirnemnt
+##Setup Environment
 rm(list=ls()) ## Clear Memory
 setwd("~/DataProject_1") ##Set Working Directory
-library(plyr) ##Load Pacjages Required for the Function
+library(plyr) ##Load Packages Required for the Script
 
 
 ##Download Datafrom the Web
@@ -83,4 +83,4 @@ library(plyr) ##Load Pacjages Required for the Function
   aggregated_tidy_data_Result<-aggregated_tidy_data_Result[index, ] ##Sort Data
 
 ##Write Table to a Flat File
-  write.table(aggregated_tidy_data_Result, file = "aggregated_tidy_data_Result.txt", sep = ",", row.name=FALSE, qmethod = "double")
+  write.table(aggregated_tidy_data_Result, file = "aggregated_tidy_data_Result.txt", sep = ",", row.name=FALSE)
