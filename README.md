@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ##Getting AND Cleaning Data Course Project
 ===========================================
 
@@ -29,3 +30,9 @@ Source data are licensed for use by the following publication [1]
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
+=======
+Getting-CleaningDataCourseProject
+=================================
+
+This repository was created for Getting and Cleaning Data Course Project
+>>>>>>> parent of 2686438... Update README.md
